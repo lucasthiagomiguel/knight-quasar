@@ -7,6 +7,11 @@ const routes = [
     ]
   },
 
+  {
+    path: '/users',
+    component: () => import('pages/UsersPage.vue')
+  },
+
   // Always leave this as last one,
   // but you can also remove it
   {
